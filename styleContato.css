@@ -1,0 +1,61 @@
+.footer{
+    background-color: rgb(2, 31, 54);
+    padding-top:25px;
+    margin-top: 15px;
+    text-align: right;   
+    color: white ;
+    text-align: right;
+}
+
+.Quadro{
+    width: 700px;
+    height: 600px;
+    background-color: tomato;
+    margin: auto;
+    margin-top: 40px;
+    border: 4px black solid;
+}
+
+.Caixa{
+    background-color:whitesmoke;
+    border: 2px gray solid;
+    border-radius: 6px;
+    margin: 20px 6px 5px 6px;
+    padding: 18px;
+}
+
+h1{
+    color: black; 
+    text-align: center;
+}
+
+h3{
+    color: black;
+    text-align: center;
+    font-style: oblique;
+}
+
+ul{
+    font-size: larger;
+}
+
+label{
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+input{
+    margin-bottom: 10px;
+}
+
+.inputButton{
+    font-size:larger;
+    text-align: center;
+    width: 150px;
+    padding: 15px 20px;
+    margin-left: 250px;
+    margin-top: 20px;
+    border: 2px solid darkblue;
+    border-radius: 3px;
+    background-color: lightblue;
+}

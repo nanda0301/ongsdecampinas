@@ -1,0 +1,27 @@
+div{
+   width: 49%;
+   height: 280px;
+   display: inline-block;
+   text-align: center;
+}
+
+body{
+    background-color: tomato;
+}
+
+.footer{
+    background-color: rgb(2, 31, 54);
+    padding-top:25px;
+    margin-top: 15px;
+    text-align: right;   
+    color: white ;
+    text-align: right;
+}
+
+h1:hover{
+    background-color: lightskyblue;
+}
+
+.nome{
+    font-size: 1.8em;
+}

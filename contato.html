@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Fernanda Drumond">
+    <link rel="stylesheet" type="text/css" href="css/styleContato.css">
+    <script src="js/scriptContato.js"></script>
+    <title>ONGs de Campinas</title>
+</head>
+
+<body>
+    <img src="imagem/barrinha.png" width="100%" height="60px" margin-bottom="10px">
+    <div class="Quadro">
+        <h1> Fale conosco</h1>
+        <h3>Entre em contato para sugerir a inclusão de novas ONGs, dúvidas e sugestões.</h3>
+        <div class="Caixa"> 
+            <div>
+                <label>Nome:</label>
+                <input type="text" name="nome" id="inputNome" size= 81;>
+            </div>
+            <div>
+                <label>Telefone: </label>
+                <input type="text" name="telefone" id="inputTelefone" size= 78;>
+            </div>
+            <div>
+                <label>E-mail: </label>
+                <input type="text" name="email" id="inputEmail" size= 80;>
+            </div>
+            <div>
+                <label>Data de nascimento: </label>
+                <input type="date" name="dataNasc" id="inputdataNasc" size= 80;>
+                <label>Região: </label>
+                <select name="regiao" id="selectRegiao">
+                    <option value="Central">Central</option>
+                    <option value="Noroeste">Noroeste</option>
+                    <option value="Norte">Norte</option>
+                    <option value="Sul">Sul</option>
+                    <option value="Sudoeste">Sudoeste</option>
+                </select>
+            </div>
+
+            <br>
+            <div>
+                <textarea id="txtComentario" rows=5 cols=85>
+            
+                </textarea>
+            </div>
+                <button class="inputButton" id="enviar" onclick="envio()">Enviar</button>
+            </div>
+            <div>
+                <h3>A sua opinião é fundamental!</h3>
+            </div>
+        </div>
+    
+    <footer class="footer">
+    </footer>
+</body>
+</html>
